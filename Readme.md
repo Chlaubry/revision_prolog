@@ -1,10 +1,11 @@
 # Langage prolog
 
 ## Définitions
-* Langage d’expression des connaissances fondé 
+Langage d’expression des connaissances fondé 
 sur le langage des prédicats du premier ordre
 
-* Programmation déclarative:
+
+Programmation déclarative:
 - L’utilisateur définit une base de connaissances
 - L’interpréteur Prolog utilise cette base de 
 connaissances pour répondre à des questions
@@ -12,9 +13,10 @@ connaissances pour répondre à des questions
 ## Constantes et variables
 
 ### Constantes
-* Nombres : 12, 3.5
+Nombres : 12, 3.5
 
-* Atomes:
+
+Atomes:
 - Chaînes de caractères commençant par une minuscule
 - Chaînes de caractères entre " "
 - Liste vide []
@@ -45,3 +47,16 @@ pere(jean,X), mere(annie,X).
 Clause de Horn sans littéral positif
 
 Exemple: famille.pl
+
+## Arithmétique
+
+* Comparaisons : =:=, =\=, >, <, >=, =< 
+
+* Affectaction : is
+```
+?- X is 3+2.
+X=5
+```
+
+* Fonctions prédéfinies : -, +, *, /, ^, mod, abs, min, 
+max, sign, random, sqrt, sin, cos, tan, log, exp, ..
