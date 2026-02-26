@@ -40,3 +40,6 @@ pere(X,Y) :- homme(X), parent(X,Y).
 % Fratrie
 
 fratrie(X,Y) :- mere(Z,X), mere(Z,Y), X\=Y.
+
+% Grand parent
+grandparent(X,Y) :- parent(X,Z), parent(Z,Y).
