@@ -1,5 +1,7 @@
 # Langage prolog
 
+Liens pour la documentation prolog: https://www.swi-prolog.org/pldoc/index.html
+
 ## Définitions
 Langage d’expression des connaissances fondé 
 sur le langage des prédicats du premier ordre
