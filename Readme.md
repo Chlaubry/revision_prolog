@@ -60,3 +60,27 @@ X=5
 
 * Fonctions prédéfinies : -, +, *, /, ^, mod, abs, min, 
 max, sign, random, sqrt, sin, cos, tan, log, exp, ..
+
+## Comparaisons et unifications de termes
+Vérifications de type : var, nonvar, integer, float, 
+number, atom, string, …
+
+
+Comparer deux termes :
+- T1==T2 réussit si T1 est identique à T2
+- T1\==T2 réussit si T1 n’est pas identique à T2
+- T1=T2 unifie T1 avec T2
+- T1\=T2 réussit si T1 n’est pas unifiable à T2
+
+Exemple: fact1.pl et fact2.pl
+
+## Listes
+
+Liste vide : [ ]
+
+
+Cas général : [Tete|Queue]
+[a,b,c] º [a|[b|[c|[ ]]]]
+
+
+Exemple: ajoute1.pl
